@@ -25,7 +25,10 @@
     "foreground": "#B4E1FD"
   },
   "ui": {
-    "Button.background": "cyan"
+    "*": {
+      "background": "background",
+      "foreground": "foreground"
+    }
   },
   "icons": {
     "ColorPalette": {
@@ -33,8 +36,8 @@
       "Actions.Green": "brightGreen",
       "Actions.Yellow": "brightYellow",
       "Actions.Blue": "brightBlue",
-      "Actions.Grey": "brightBlack",
-      "Actions.GreyInline": "brightBlack",
+      "Actions.Grey": "white",
+      "Actions.GreyInline": "white",
       "Actions.GreyInline.Dark": "brightWhite"
     }
   }
