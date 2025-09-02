@@ -4,12 +4,12 @@
   "dark": true,
   "colors": {
     "black": "#363636",
-    "red": "#FF0883",
-    "green": "#83FF08",
-    "yellow": "#FF8308",
-    "blue": "#0883FF",
-    "magenta": "#8308FF",
-    "cyan": "#08FF83",
+    "red": "#FF007f",
+    "green": "#7fFF00",
+    "yellow": "#FF7f00",
+    "blue": "#007fFF",
+    "magenta": "#7f00FF",
+    "cyan": "#00FF7f",
     "white": "#B6B6B6",
 
     "brightBlack": "#424242",
@@ -22,12 +22,20 @@
     "brightWhite": "#C2C2C2",
 
     "background": "#0D1926",
-    "foreground": "#B4E1FD"
+    "foreground": "#B4E1FD",
+
+    "selectionBackground": "#475f71"
   },
   "ui": {
     "*": {
       "background": "background",
       "foreground": "foreground"
+    },
+    "List": {
+      "background": "background",
+      "foreground": "foreground",
+      "selectionBackground": "selectionBackground",
+      "selectionForeground": "foreground"
     }
   },
   "icons": {
@@ -38,7 +46,17 @@
       "Actions.Blue": "brightBlue",
       "Actions.Grey": "white",
       "Actions.GreyInline": "white",
-      "Actions.GreyInline.Dark": "brightWhite"
+      "Actions.GreyInline.Dark": "brightWhite",
+
+      "Objects.BlackText": "brightBlack",
+      "Objects.Blue": "brightBlue",
+      "Objects.Green": "green",
+      "Objects.Grey": "white",
+      "Objects.Purple": "magenta",
+      "Objects.Red": "red",
+      "Objects.RedStatus": "brightRed",
+      "Objects.Yellow": "yellow",
+      "Objects.YellowDark": "brightYellow"
     }
   }
 }
