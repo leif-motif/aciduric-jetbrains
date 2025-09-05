@@ -24,12 +24,40 @@
     "background": "#0D1926",
     "foreground": "#B4E1FD",
 
-    "selectionBackground": "#475f71"
+    "pink": "#ff7fff",
+    "golden": "#FFFF7F",
+    "brightGolden": "#FFFF1E",
+
+    "selectionBackground": "#475f71",
+    "redSelection": "#49133c",
+    "greenSelection": "#29521d",
+    "yellowSelection": "#49321d",
+    "blueSelection": "#0a325c",
+    "magentaSelection": "#29135c",
+    "cyanSelection": "#0a523c"
   },
   "ui": {
     "*": {
       "background": "background",
       "foreground": "foreground"
+    },
+    "Button": {
+      "startBackground": "brightBlack",
+      "endBackground": "brightBlack",
+      "startBorderColor": "white",
+      "endBorderColor": "white",
+      "default": {
+        "startBackground": "blue",
+        "endBackground": "blue",
+        "foreground": "foreground",
+        "startBorderColor": "white",
+        "endBorderColor": "white"
+      }
+    },
+    "Label": {
+      "errorForeground": "red",
+      "infoForeground": "blue",
+      "successForeground": "green"
     },
     "List": {
       "background": "background",
@@ -52,6 +80,7 @@
       "Objects.Blue": "brightBlue",
       "Objects.Green": "green",
       "Objects.Grey": "white",
+      "Objects.Pink": "pink",
       "Objects.Purple": "magenta",
       "Objects.Red": "red",
       "Objects.RedStatus": "brightRed",
